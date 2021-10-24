@@ -8,7 +8,7 @@ body {
 }
 
 #mainheader {
-    background-color: bisque;
+    background-color: lightblue;
 }
 
 nav {
@@ -46,4 +46,8 @@ nav>ul>li a {
     float: right;
     width: 80%;
     margin-bottom: 20px;
+}
+
+#footer {
+    font-size: .3 em;
 }
