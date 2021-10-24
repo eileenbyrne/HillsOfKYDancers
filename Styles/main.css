@@ -8,67 +8,36 @@ body {
     padding: 10px;
 }
 
-#mainheader {
+mainheader {
     background-color: lightblue;
-    margin: 0 auto 20px;
-}
-
-nav {
-    height: 60px;
-    width: 500px;
-    margin: 0 auto 20px;
-}
-
-nav>ul {
-    list-style-type: none;
-    margin: 5px;
-    padding: 0px;
-    overflow: hidden;
-}
-
-nav>ul>ol {
-    float: left;
-}
-
-nav>ul>ol a {
+    margin: 0;
     display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+mainheader img {
     text-align: left;
-    padding: 1px;
-    text-decoration: none;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-}
-
-ul>ol {
     float: left;
+    padding-left: 1px;
+    font-family: 'Roboto', sans-serif;
 }
 
-ol a {
-    display: block;
-    text-align: left;
-    padding: 1px;
-    text-decoration: none;
-}
-
-#leftmenu {
+leftmenu {
     float: left;
-    margin-left: auto;
-    margin-bottom: auto;
     width: 20%;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#main {
+main {
     float: right;
     width: 80%;
+    margin-left: auto;
     margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
-#footer {
+footer {
     font-size: smaller;
+    font-family: 'Roboto', sans-serif;
 }
