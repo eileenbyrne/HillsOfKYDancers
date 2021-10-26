@@ -1,0 +1,16 @@
+/* for the navigation line 
+
+html
+<nav>
+<a ...>...</a>
+<a ...>...</a>
+<a ...>...</a>
+</nav>
+
+for the css
+@media screen and (min-width: 375px) {
+    nav {
+        display: flex;
+        justify-content: right; 
+    }
+}  */
